@@ -5,8 +5,6 @@ builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-var value = Environment.GetEnviromentVariable("env")
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
